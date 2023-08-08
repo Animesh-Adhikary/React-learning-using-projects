@@ -1,0 +1,13 @@
+nav {
+  width: 100%;
+    padding: 1.8rem;
+  background: rgb(17, 17, 17);
+}
+nav > a {
+  color: white;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: 0 2rem;
+
+}
