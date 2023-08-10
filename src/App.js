@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 import "./styles/App.css";
-import Resturant from './components/Resturant';
+import Resturant from "./components/Resturant";
+
 
 const App = () => {
-  return (
-    <Resturant/>
-  )
-}
+  return <Resturant />;
+};
 
-export default App
+export default App;

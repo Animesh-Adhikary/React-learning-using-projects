@@ -6,6 +6,7 @@ const MenuCard = ({ menuData }) => {
         <>
             <section className='main-card--container'>
                 {menuData.map((currElm) => {
+                    console.log(currElm.image)
                     return (
                         <>
                             <div className="card-container" key={currElm.id}>
