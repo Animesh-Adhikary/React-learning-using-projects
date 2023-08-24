@@ -20,7 +20,7 @@ const MenuCard = ({ menuData }) => {
                                         </span>
                                     </div>
                                     <div className="card-read">Read</div>
-                                    <img src={currElm.image} alt="menu-images" className='card-media' />
+                                    <img src={currElm.image} alt={currElm.name + " image"} className='card-media' />
 
                                     <span className='card-tag subtle'>Order now</span>
                                 </div>
